@@ -1,0 +1,23 @@
+
+.displayCatContanier:empty{
+    display: none;
+}
+
+.displayCatContanier{
+    background-color: #E8E8D9;
+    width: auto;
+    height: auto;
+    padding: 30px;
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+.savedImage{
+    object-fit: cover;
+    width: 550px;
+    margin: 30px;
+    box-shadow: 3px 3px 3px #B1B181 ;
+}
